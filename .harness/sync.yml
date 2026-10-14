@@ -1,0 +1,6 @@
+enabled: true
+groups: []
+language: ko
+overrides:
+  claude/skills/git-commit: true
+  claude/skills/write-pr: true
