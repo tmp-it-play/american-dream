@@ -1,0 +1,70 @@
+{
+  "uv": "TEXCOORD_1 (lightmap)",
+  "encoding": "irradiance = channel^2 * scale; color = albedo * sum(irradiance * color * intensity)",
+  "lamps": [
+    {
+      "name": "L_floorlamp",
+      "channel": "R",
+      "scale": 6.899997510910058,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ],
+      "position": [
+        0.949999988079071,
+        3.299999952316284,
+        1.5199999809265137
+      ],
+      "glow": "glow_floorlamp"
+    },
+    {
+      "name": "L_sconce_top",
+      "channel": "G",
+      "scale": 1.047737641334533,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ],
+      "position": [
+        3.799999952316284,
+        2.0250000953674316,
+        1.2799999713897705
+      ],
+      "glow": "glow_sconce_top"
+    },
+    {
+      "name": "L_sconce_bottom",
+      "channel": "B",
+      "scale": 1.3455946648120904,
+      "color": [
+        1.0,
+        0.7200000286102295,
+        0.41999998688697815
+      ],
+      "position": [
+        3.799999952316284,
+        2.0250000953674316,
+        1.0199999809265137
+      ],
+      "glow": "glow_sconce_bottom"
+    },
+    {
+      "name": "L_window",
+      "channel": "A",
+      "scale": 4.640292146205939,
+      "color": [
+        0.44999998807907104,
+        0.6000000238418579,
+        1.0
+      ],
+      "position": [
+        2.5199999809265137,
+        3.75,
+        1.409999966621399
+      ],
+      "glow": null
+    }
+  ]
+}
